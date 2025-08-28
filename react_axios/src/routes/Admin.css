@@ -1,0 +1,32 @@
+.admin h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.edit-btn, .delete-btn {
+        color: #fff;
+        font-size: 1.1rem;
+}
+
+.edit-btn {
+    background-color: #e98513;
+}
+
+.edit-btn:hover {
+    border-color: #e98513;
+    color: #e98513;
+}
+
+.delete-btn {
+    background-color: #eb1717;
+}
+
+.delete-btn:hover {
+    border-color: #eb1717;
+    color: #eb1717;
+}
